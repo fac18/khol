@@ -1,5 +1,10 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: block;
+    text-align: center;
 }
 
 li {
@@ -21,4 +26,23 @@ a {
 
 h1, h2, footer {
     text-align: center;
+}
+
+.members {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    width: 50%;
+}
+
+@media screen and (min-width: 320px) {
+    .members {
+        display: inline-block;
+        width: 100%;
+        border: 2px solid black;
+    }
+    .members img {
+        width: 100%;
+    }
 }
