@@ -4,11 +4,11 @@
  * [Ayub](https://github.com/Ayub3). 
  * [Jamie](https://github.com/jc282)
  * [Nikke](https://github.com/nikkesan)
- * [Reneta](https://github.com/renatajarmova)
+ * [Renata](https://github.com/renatajarmova)
 
 
 
-## contents: 
+## Contents: 
 * A headline and description about our team and what we offer.
 * navigation button for About, team and contact.
 * A contact form at the bottom of the page.
@@ -35,7 +35,7 @@
 - [x] added a return to top button
 - [x] we added icons for github,linkedin and codewars
 
-## problems:
+## Problems:
  * At first following the git workflow.
  * The profile article for all the profiles are different heights.
  
