@@ -5,42 +5,92 @@ html {
 body {
     display: block;
     text-align: center;
+    margin: 0%;
+    color: #fff;
 }
 
-li {
-    display: inline-block;
-    padding-left: 20px;
+.navbar-container {
+    height: 9vh;
+    position: sticky;
+    background: #eaec69;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    z-index: 1;
+    padding: 0.1rem;
 }
 
-ul {
+.navbar {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    justify-content: space-around;
 }
 
-a {
+.navbar a {
     text-decoration: none;
+    color: black;
 }
 
-h1, h2, footer {
+.navbar a:hover {
+    color: #639bc9;
+}
+
+.divisions {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.division1 {
+    /*background-image: url(bg-green.jpg);*/
+    background-color: #6ecc82;
+}
+.division2 {
+    background-color: #be4848;
+}
+.division3 {
+    background-color: white;
+    color: black;
+}
+.division4 {
+    background-color: #639bc9;
+}
+
+h1, 
+h2, 
+footer {
     text-align: center;
+}
+
+footer {
+    color: black
+}
+
+.team {
+    padding-top: 5%;
 }
 
 .members {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
     margin: 0 auto;
     text-align: center;
-    max-width: 400px;
+    max-width: 250px;
     width: 50%;
+    height: 100vh;
+    padding: 0.6%;
 }
+
 
 @media screen and (min-width: 320px) {
     .members {
         display: inline-block;
         width: 100%;
-        border: 2px solid black;
     }
     .members img {
         width: 100%;
