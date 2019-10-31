@@ -92,6 +92,7 @@ h1, h2, footer {
 footer {
     background-color: #eaec69;
     color: black;
+    padding: 15px;
 }
 
 .team {
