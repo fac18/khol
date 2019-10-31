@@ -90,7 +90,8 @@ h1, h2, footer {
 
 
 footer {
-    color: black
+    background-color: #eaec69;
+    color: black;
 }
 
 .team {
@@ -150,4 +151,34 @@ footer {
     .members img {
         width: 100%;
     }
+}
+
+label {
+    font-size: 2rem;
+}
+
+input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    width: 30vw;
+    height: 5vh;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+#message {
+    font-family: 'Quicksand', sans-serif;
+    height: 25vh;
+    width:30vw;
+    font-size:1.5rem;
+}
+
+.submit {
+    width: 10vw;
+
+}
+
+form {
+    width:30vw;
+    text-align: left;
 }
