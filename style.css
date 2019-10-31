@@ -37,7 +37,7 @@ body {
 
 .divisions {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -55,6 +55,7 @@ body {
 .division3 {
     background-color: white;
     color: black;
+    min-height: 100vh;
 }
 .division4 {
     background-color: #639bc9;
@@ -74,21 +75,49 @@ footer {
     padding-top: 5%;
 }
 
-.members {
-    display: flex;
+.team {
     justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
     margin: 0 auto;
     text-align: center;
+    min-height: 100vh;
+  
+}
+
+.members {
+    display: flex;
     max-width: 250px;
     width: 50%;
-    height: 100vh;
     padding: 0.6%;
+    margin:20px;
+    border-radius:10px;
 }
+    
 
 .members img {
     border-radius: 50%;
     max-width: 70%;
+}
+
+.ayub {
+    background-color: #be4848;
+    height:50vh;
+}
+
+.nikke {
+    background-color: #eaec69;
+    height:50vh;    
+}
+
+.renata {
+    background-color: #6ecc82;
+    height:50vh;
+}
+
+.jamie {
+    background-color: #639bc9;
+    height:50vh;
 }
 
 @media screen and (min-width: 320px) {
