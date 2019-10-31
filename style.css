@@ -124,6 +124,12 @@ footer {
     padding: 15px;
 }
 
+.copyright {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .team {
     padding-top: 5%;
 }
