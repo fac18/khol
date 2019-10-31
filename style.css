@@ -145,6 +145,7 @@ footer {
     margin: 20px;
     border-radius: 10px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    vertical-align: top;
 }
 
 .members a {
@@ -159,19 +160,23 @@ footer {
 .ayub {
     background-color: #be4848;
     color: white;
+    
 }
 
 .nikke {
     background-color: #eaec69;
+    
 }
 
 .renata {
     background-color: #6ecc82;
+    
 }
 
 .jamie {
     background-color: #639bc9;
     color: white;
+    
 }
 
 .social-media-icons {
