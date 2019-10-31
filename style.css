@@ -154,13 +154,13 @@ footer {
 }
 
 label {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 input {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
-    width: 30vw;
+    width: 40vmax;
     height: 5vh;
     margin-top: 10px;
     margin-bottom:10px;
@@ -169,17 +169,31 @@ input {
 #message {
     font-family: 'Quicksand', sans-serif;
     height: 25vh;
-    width:30vw;
+    width:40vmax;
     font-size:1.5rem;
+    margin-top: 10px;
+    padding-top:10px;
 }
 
 .submit {
-    width: 10vw;
+    width: 20vmax;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: white;
+    color: #639bc9;
+    padding: 0px;
+}
 
+.submit:hover {
+    color:#be4848;
+}
+
+.submit:active {
+    color: #6ecc82;
 }
 
 form {
-    width:30vw;
+    width:40vmax;
     text-align: left;
 }
 
