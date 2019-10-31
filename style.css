@@ -182,3 +182,24 @@ form {
     width:30vw;
     text-align: left;
 }
+
+ #scroll-up {
+    display: none;
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white;
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 40%; 
+    font-size: 20px;
+  }
+  
+  #scroll-up:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+  }
