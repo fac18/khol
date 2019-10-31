@@ -57,3 +57,6 @@ we have satifised the following user stories:
 - [x] I want to easily view the site when browsing on my mobile, tablet or desktop
 so that I can understand the sites content easily on whatever device I choose to view it in.
 
+## Accessibility screenshot:
+![img](images/Screen Shot 2019-10-31 at 17.50.19.png)
+
