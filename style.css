@@ -36,10 +36,16 @@ h2 {
 .bigger {
     font-size: 1.2rem;
 }
+/*
+.description {
+    word-break: break-all;
+    white-space: normal;
+    padding-left:20px;
+}*/
 
 .description {
-    padding-left: 20px;
-    word-wrap: break-word;
+    width:210px;
+    padding-left:20px;
 }
 
 .main {
@@ -145,7 +151,7 @@ footer {
 }
 
 .members {
-    display: flex;
+    /*display: flex;*/
     max-width: 250px;
     width: 50%;
     padding: 0.6%;
