@@ -14,6 +14,7 @@ body {
 
 h1, h2, h3, .navbar {
     font-family: 'Mansalva', cursive;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 h1, h2, footer {
@@ -100,8 +101,8 @@ h2 {
 }
 
 .division1 {
-    /*background-image: url(bg-green.jpg);*/
     background-color: #6ecc82;
+    color: black;
 }
 
 .division2 {
@@ -201,6 +202,10 @@ footer {
     }
 }
 
+.contact {
+    color: black;
+}
+
 label {
     font-size: 1.5rem;
 }
@@ -228,15 +233,18 @@ input {
     height: 3rem;
     font-size: 1.5rem;
     background-color: white;
-    color: #639bc9;
     padding: 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.submit:hover {
-    color: #be4848;
+.submit a {
+    text-decoration: none;
+    color:black;
 }
 
-.submit:active {
+.submit:active, a:hover {
     color: #6ecc82;
 }
 
