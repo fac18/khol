@@ -205,12 +205,17 @@ input {
 }
 
 .submit {
-    width: 20vmax;
-    height: 3rem;
-    font-size: 1.5rem;
+    width: 10vmax;
+    height: 50px;
+    font-size: 1rem;
     background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.submit a {
+    text-decoration: none;
     color: #639bc9;
-    padding: 0px;
+
 }
 
 .submit:hover {
