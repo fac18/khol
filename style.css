@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Quicksand&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -7,6 +9,31 @@ body {
     text-align: center;
     margin: 0%;
     color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, .navbar {
+    font-family: 'Mansalva', cursive;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+
+.main {
+    font-size: 5rem;
+}
+
+.red {
+    color:#be4848;
+}
+
+.blue {
+    color: #639bc9;
+}
+
+.yellow {
+    color: #eaec69;
 }
 
 .navbar-container {
@@ -61,11 +88,6 @@ body {
     background-color: #639bc9;
 }
 
-h1, 
-h2, 
-footer {
-    text-align: center;
-}
 
 footer {
     color: black
