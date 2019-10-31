@@ -54,12 +54,18 @@ p {
     text-decoration: none;
     z-index: 1;
     padding: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .navbar {
+    width:100vw;
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    padding:0px;
 }
 
 .navbar a {
