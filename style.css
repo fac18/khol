@@ -24,6 +24,18 @@ p {
     max-width: 80%;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+.contact h2 {
+    padding-bottom: 15px;
+}
+
+.bigger {
+    font-size: 1.5rem;
+}
+
 .description {
     padding-left: 20px;
     word-wrap: break-word;
