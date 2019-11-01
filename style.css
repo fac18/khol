@@ -36,6 +36,7 @@ h2 {
 .bigger {
     font-size: 1.2rem;
 }
+
 /*
 .description {
     word-break: break-all;
@@ -44,8 +45,8 @@ h2 {
 }*/
 
 .description {
-    width:210px;
-    padding-left:20px;
+    width: 210px;
+    padding-left: 20px;
 }
 
 .main {
@@ -79,12 +80,12 @@ h2 {
 }
 
 .navbar {
-    width:100vw;
+    width: 100vw;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding:0px;
+    padding: 0px;
 }
 
 .navbar a {
@@ -133,8 +134,8 @@ footer {
 
 .copyright {
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team {
@@ -156,7 +157,7 @@ footer {
     width: 50%;
     padding: 0.6%;
     margin: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     vertical-align: top;
 }
@@ -173,23 +174,19 @@ footer {
 .ayub {
     background-color: #be4848;
     color: white;
-    
 }
 
 .nikke {
     background-color: #eaec69;
-    
 }
 
 .renata {
     background-color: #6ecc82;
-    
 }
 
 .jamie {
     background-color: #639bc9;
     color: white;
-    
 }
 
 .social-media-icons {
@@ -204,6 +201,7 @@ footer {
 .fab {
     color: black;
 }
+
 @media screen and (min-width: 320px) {
     .members {
         display: inline-block;
@@ -253,7 +251,7 @@ input {
 
 .submit a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .submit:active, a:hover {
@@ -265,7 +263,7 @@ form {
     text-align: left;
 }
 
-#scroll-up {
+.scroll-up {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -281,7 +279,7 @@ form {
     font-size: 20px;
 }
 
-#scroll-up:hover {
+.scroll-up:hover {
     background-color: rgba(0, 0, 0, 0.8);
     transform: scale(1.1);
 }
