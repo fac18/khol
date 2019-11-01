@@ -91,6 +91,7 @@ h2 {
 .navbar a {
     text-decoration: none;
     color: black;
+    font-size: 1.5rem;
 }
 
 .navbar a:hover {
@@ -149,10 +150,10 @@ footer {
     margin: 0 auto;
     text-align: center;
     min-height: 100vh;
+    margin-bottom:60px;
 }
 
 .members {
-    /*display: flex;*/
     max-width: 250px;
     width: 50%;
     padding: 0.6%;
@@ -160,6 +161,7 @@ footer {
     border-radius: 10px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     vertical-align: top;
+    
 }
 
 .members a {
@@ -225,12 +227,12 @@ footer {
 }
 
 label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 input {
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 40vmax;
     height: 5vh;
     margin-top: 10px;
@@ -241,7 +243,7 @@ input {
     font-family: 'Quicksand', sans-serif;
     height: 25vh;
     width: 40vmax;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 10px;
     padding-top: 10px;
 }
@@ -249,7 +251,7 @@ input {
 .submit {
     width: 20vmax;
     height: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background-color: white;
     padding: 0px;
     margin-top: 10px;
