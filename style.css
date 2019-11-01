@@ -204,6 +204,11 @@ footer {
 .fab {
     color: black;
 }
+
+.fab:hover {
+    color: #6ecc82;
+}
+
 @media screen and (min-width: 320px) {
     .members {
         display: inline-block;
